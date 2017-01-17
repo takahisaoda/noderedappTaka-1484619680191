@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: noderedappTaka
+  host: noderedappTaka
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - noderedappTaka-cloudantNoSQLDB
+  - Visual Recognition-a8
